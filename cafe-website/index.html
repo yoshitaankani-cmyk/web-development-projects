@@ -1,1 +1,438 @@
-cafe website using html and css
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f5ef">
+  <title>MAISON | Artisan Café</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="#home">MAISON<span>.</span></a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#story">Our Story</a>
+    <a href="#about">Why MAISON</a>
+  </nav>
+  <a class="cart-button" href="#menu">Explore Menu</a>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tagline">A LITTLE MOMENT OF HAPPINESS</p>
+      <h1>Welcome to <span>MAISON</span> Café</h1>
+      <p>Where freshly brewed coffee, delicious pastries, and beautiful moments come together.</p>
+      <a href="#menu" class="explore-btn">Explore Our Menu</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200" alt="Freshly brewed coffee at MAISON Café">
+    </div>
+  </section>
+
+  <!-- INTRODUCTION -->
+  <section class="intro-section">
+    <p class="eyebrow">WELCOME TO MAISON</p>
+    <h2>Your everyday escape,<br>served with something delicious.</h2>
+    <p>Discover comforting classics, beautiful bakes and refreshing favourites, all in one little corner.</p>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu-section" id="menu">
+    <div class="section-heading">
+      <p class="eyebrow">MADE FRESH FOR YOU</p>
+      <h2>Explore our menu</h2>
+      <p>Find something you'll love, one delicious bite at a time.</p>
+    </div>
+
+    <div class="categories">
+      <a href="#coffee">Coffee</a>
+      <a href="#cookies">Cookies</a>
+      <a href="#cakes">Cakes</a>
+      <a href="#pastries">Pastries</a>
+      <a href="#drinks">Drinks</a>
+      <a href="#sandwiches">Sandwiches</a>
+      <a href="#desserts">Desserts</a>
+      <a href="#breakfast">Breakfast</a>
+    </div>
+
+    <!-- COFFEE -->
+    <h3 class="category-title" id="coffee">Coffee</h3>
+    <div class="products">
+      <article class="product-card">
+        <img src="https://img.magnific.com/free-photo/closeup-classic-fresh-espresso-served-dark-surface_1220-5376.jpg" alt="Classic Espresso">
+        <div class="product-info">
+          <h3>Classic Espresso</h3>
+          <p>Rich, bold and beautifully brewed.</p>
+          <div class="product-bottom"><strong>₹120</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmvAjbbvewNnuaBLAngWg468FMLbeol9BTam6_xcG1tQzzoNuglJUtrho&s=10" alt="Caramel Cappuccino">
+        <div class="product-info">
+          <h3>Caramel Cappuccino</h3>
+          <p>Silky coffee with a caramel touch.</p>
+          <div class="product-bottom"><strong>₹180</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://spooncalc.com/wp-content/uploads/2026/01/Iced-Americano-matters.webp" alt="Iced Americano">
+        <div class="product-info">
+          <h3>Iced Americano</h3>
+          <p>Refreshing coffee served over ice.</p>
+          <div class="product-bottom"><strong>₹150</strong><span>4.7 ★</span></div>
+        </div>
+      </article>
+    </div>
+
+    <!-- COOKIES -->
+    <h3 class="category-title" id="cookies">Cookies</h3>
+    <div class="products">
+      <article class="product-card">
+        <img src="https://www.modernhoney.com/wp-content/uploads/2020/12/Oatmeal-Chocolate-Chip-Cookies-6-scaled.jpg" alt="Chocolate Chip Cookies">
+        <div class="product-info">
+          <h3>Chocolate Chip Cookies</h3>
+          <p>Soft cookies with chocolate chips.</p>
+          <div class="product-bottom"><strong>₹100</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/1200x/9f/46/ea/9f46eaa22cac87589547884d7e413f20.jpg" alt="Oatmeal Raisin Cookies">
+        <div class="product-info">
+          <h3>Oatmeal Raisin Cookies</h3>
+          <p>A comforting classic with every bite.</p>
+          <div class="product-bottom"><strong>₹110</strong><span>4.7 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/5c/8e/26/5c8e26db07115f7379014407c242016c.jpg" alt="Butter Shortbread Cookies">
+        <div class="product-info">
+          <h3>Butter Shortbread Cookies</h3>
+          <p>Delicate, buttery and crisp.</p>
+          <div class="product-bottom"><strong>₹90</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+    </div>
+
+    <!-- CAKES -->
+    <h3 class="category-title" id="cakes">Cakes</h3>
+    <div class="products">
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/ee/6e/f5/ee6ef5cbf05b16e404215abafd2eb24a.jpg" alt="Chocolate Truffle Cake">
+        <div class="product-info">
+          <h3>Chocolate Truffle Cake</h3>
+          <p>Layers of rich chocolate indulgence.</p>
+          <div class="product-bottom"><strong>₹220</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/2f/10/89/2f10895ecd12ac32e9befe98b3c8f231.jpg" alt="Strawberry Cream Cake">
+        <div class="product-info">
+          <h3>Strawberry Cream Cake</h3>
+          <p>Light cream and sweet strawberries.</p>
+          <div class="product-bottom"><strong>₹210</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/f1/fa/37/f1fa378de5b82e4deebef8dfac793b4a.jpg" alt="Red Velvet Cake">
+        <div class="product-info">
+          <h3>Red Velvet Cake</h3>
+          <p>Velvety layers with cream frosting.</p>
+          <div class="product-bottom"><strong>₹230</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+    </div>
+
+    <!-- PASTRIES -->
+    <h3 class="category-title" id="pastries">Pastries</h3>
+    <div class="products">
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/f9/bb/fa/f9bbfa8200af8d08f302594cc29d940e.jpg" alt="Chocolate Danish">
+        <div class="product-info">
+          <h3>Chocolate Danish</h3>
+          <p>Flaky pastry with chocolate filling.</p>
+          <div class="product-bottom"><strong>₹150</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/1200x/0d/08/76/0d08760883e3ffc22383bd4583a62da9.jpg" alt="Butter Croissant">
+        <div class="product-info">
+          <h3>Butter Croissant</h3>
+          <p>Golden, flaky and buttery.</p>
+          <div class="product-bottom"><strong>₹130</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/b1/be/ac/b1beacce6f4252cf8b2228bb471211f7.jpg" alt="Cream Puff">
+        <div class="product-info">
+          <h3>Cream Puff</h3>
+          <p>Delicate pastry filled with cream.</p>
+          <div class="product-bottom"><strong>₹120</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+    </div>
+
+    <!-- DRINKS -->
+    <h3 class="category-title" id="drinks">Refreshing Drinks</h3>
+    <div class="products">
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/c8/3a/fb/c83afbed244397d12461f855d0806960.jpg" alt="Vanilla Milkshake">
+        <div class="product-info">
+          <h3>Vanilla Milkshake</h3>
+          <p>Creamy and wonderfully smooth.</p>
+          <div class="product-bottom"><strong>₹160</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/44/c7/20/44c720ae340be2b62c60e71e3740e325.jpg" alt="Chocolate Milkshake">
+        <div class="product-info">
+          <h3>Chocolate Milkshake</h3>
+          <p>Chocolate goodness in every sip.</p>
+          <div class="product-bottom"><strong>₹170</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/ad/bb/8b/adbb8b385812e16742f463fedf2f1960.jpg" alt="Strawberry Milkshake">
+        <div class="product-info">
+          <h3>Strawberry Milkshake</h3>
+          <p>Fresh and fruity refreshment.</p>
+          <div class="product-bottom"><strong>₹170</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/6c/59/52/6c59523c1a3b822d2761c335ae4ed0f0.jpg" alt="Fresh Lemonade">
+        <div class="product-info">
+          <h3>Fresh Lemonade</h3>
+          <p>A bright and refreshing classic.</p>
+          <div class="product-bottom"><strong>₹100</strong><span>4.7 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/5b/6a/14/5b6a14753f4eab989b81efdeb8b94176.jpg" alt="Iced Peach Tea">
+        <div class="product-info">
+          <h3>Iced Peach Tea</h3>
+          <p>Light tea with a fruity twist.</p>
+          <div class="product-bottom"><strong>₹130</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/2a/2e/64/2a2e6425495a5ec02937eea45db7c66c.jpg" alt="Mixed Fruit Smoothie">
+        <div class="product-info">
+          <h3>Mixed Fruit Smoothie</h3>
+          <p>A blend of refreshing fruit flavours.</p>
+          <div class="product-bottom"><strong>₹180</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+    </div>
+
+    <!-- SANDWICHES -->
+    <h3 class="category-title" id="sandwiches">Sandwiches</h3>
+    <div class="products">
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/ee/f3/a8/eef3a814739bbc4a540f74f482babbb5.jpg" alt="Garden Veggie Sandwich">
+        <div class="product-info">
+          <h3>Garden Veggie Sandwich</h3>
+          <p>Fresh vegetables in toasted bread.</p>
+          <div class="product-bottom"><strong>₹160</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/da/8f/36/da8f36c0f5a6e305cd14f2aa856a6ebe.jpg" alt="Grilled Cheese Sandwich">
+        <div class="product-info">
+          <h3>Grilled Cheese Sandwich</h3>
+          <p>Golden toast with melted cheese.</p>
+          <div class="product-bottom"><strong>₹170</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/ab/1d/7d/ab1d7d63dc3ad87625963f6935afb94b.jpg" alt="Paneer Tikka Sandwich">
+        <div class="product-info">
+          <h3>Paneer Tikka Sandwich</h3>
+          <p>Spiced paneer with delicious fillings.</p>
+          <div class="product-bottom"><strong>₹190</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+    </div>
+
+    <!-- DESSERTS -->
+    <h3 class="category-title" id="desserts">Desserts & Bakes</h3>
+    <div class="products">
+      <article class="product-card">
+        <img src="https://i.pinimg.com/1200x/3c/6c/3e/3c6c3eb64f20919c13aab6730e5664e7.jpg" alt="Blueberry Cheesecake">
+        <div class="product-info">
+          <h3>Blueberry Cheesecake</h3>
+          <p>Creamy cheesecake with blueberry topping.</p>
+          <div class="product-bottom"><strong>₹230</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/75/a9/f8/75a9f8eeb60bc8ff78bc2284e6690857.jpg" alt="Cinnamon Roll">
+        <div class="product-info">
+          <h3>Cinnamon Roll</h3>
+          <p>Soft swirls with warm cinnamon flavour.</p>
+          <div class="product-bottom"><strong>₹140</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/3d/46/d5/3d46d5982ed9618823f67f0811fc9cd8.jpg" alt="Belgian Waffles">
+        <div class="product-info">
+          <h3>Belgian Waffles</h3>
+          <p>Golden waffles made for a sweet moment.</p>
+          <div class="product-bottom"><strong>₹190</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/1200x/23/74/46/2374466fa632ebfd6f015e96c67015ce.jpg" alt="Chocolate Brownie">
+        <div class="product-info">
+          <h3>Chocolate Brownie</h3>
+          <p>Rich, fudgy and deeply chocolatey.</p>
+          <div class="product-bottom"><strong>₹130</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/1200x/54/5d/5d/545d5dacdad4ade25342fdfedf0aadd3.jpg" alt="Avocado Toast">
+        <div class="product-info">
+          <h3>Avocado Toast</h3>
+          <p>A fresh and satisfying breakfast favourite.</p>
+          <div class="product-bottom"><strong>₹210</strong><span>4.8 ★</span></div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <img src="https://i.pinimg.com/736x/89/79/78/8979787890938df537d960f23263df35.jpg" alt="Mango Smoothie">
+        <div class="product-info">
+          <h3>Mango Smoothie</h3>
+          <p>A creamy, tropical fruit favourite.</p>
+          <div class="product-bottom"><strong>₹170</strong><span>4.9 ★</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- OUR STORY -->
+  <section class="story-section" id="story">
+    <div class="story-content">
+      <p class="eyebrow">A STORY OF SIMPLE PLEASURES</p>
+      <h2>More than a café.<br><em>A feeling of belonging.</em></h2>
+      <p>At MAISON, we believe the most beautiful moments are often the simplest. A warm cup of coffee, a freshly baked pastry, a conversation that lasts a little longer than expected.</p>
+      <p>Our café brings together thoughtfully selected flavours, comforting favourites and a welcoming atmosphere. Every visit is an invitation to slow down and enjoy the little things.</p>
+      <a href="#menu" class="primary-button">Discover our menu</a>
+    </div>
+
+    <div class="story-decoration">
+      <span>MAISON</span>
+      <h3>Crafted with care.<br>Enjoyed with love.</h3>
+      <p>GOOD FOOD · GOOD COFFEE · GOOD MOMENTS</p>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why-section" id="about">
+    <div class="section-heading">
+      <p class="eyebrow">THE MAISON DIFFERENCE</p>
+      <h2>Why choose MAISON?</h2>
+      <p>Little details make every experience special.</p>
+    </div>
+
+    <div class="why-grid">
+      <article class="why-card">
+        <span>01</span>
+        <h3>Thoughtfully Selected</h3>
+        <p>From comforting classics to delightful discoveries, every menu choice is made with care.</p>
+      </article>
+      <article class="why-card">
+        <span>02</span>
+        <h3>Freshly Inspired</h3>
+        <p>We celebrate the joy of fresh flavours, beautiful textures and delicious combinations.</p>
+      </article>
+      <article class="why-card">
+        <span>03</span>
+        <h3>A Beautiful Experience</h3>
+        <p>Warm colours, welcoming details and a relaxed atmosphere make every visit feel special.</p>
+      </article>
+      <article class="why-card">
+        <span>04</span>
+        <h3>Something for Everyone</h3>
+        <p>Explore coffees, pastries, cakes, sandwiches, refreshing drinks and more.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section class="philosophy-section">
+    <p class="eyebrow">OUR PHILOSOPHY</p>
+    <h2>Slow down. Sip slowly.<br><em>Stay a little longer.</em></h2>
+    <p>We believe a café should be more than a place to eat. It should be a place to pause, connect, celebrate and create memories.</p>
+  </section>
+
+  <!-- OUR PROMISE -->
+  <section class="promise-section">
+    <div class="section-heading">
+      <p class="eyebrow">A LITTLE PROMISE FROM US</p>
+      <h2>Every detail matters.</h2>
+    </div>
+
+    <div class="promise-grid">
+      <div><h3>Quality</h3><p>Carefully presented favourites and flavours worth coming back for.</p></div>
+      <div><h3>Comfort</h3><p>A welcoming café experience where you can feel at ease.</p></div>
+      <div><h3>Joy</h3><p>Little everyday treats that make ordinary moments memorable.</p></div>
+    </div>
+  </section>
+
+  <!-- FINAL INVITATION -->
+  <section class="visit-section">
+    <p class="eyebrow">YOUR TABLE IS WAITING</p>
+    <h2>Make today a little more delicious.</h2>
+    <p>Find your new favourite in the MAISON menu.</p>
+    <a href="#menu" class="primary-button">Explore the menu</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <a class="logo" href="#home">MAISON<span>.</span></a>
+  <p>Thoughtfully made. Beautifully enjoyed.</p>
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#story">Our Story</a>
+    <a href="#about">Why MAISON</a>
+  </div>
+  <p class="copyright">© 2026 MAISON Café. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
