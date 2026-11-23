@@ -1,1 +1,451 @@
-e-commerce using html and css
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ÉLAN | The Art of Everyday Luxury</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="announcement">
+    COMPLIMENTARY SHIPPING ON ORDERS ABOVE ₹1,999
+  </div>
+
+  <header class="header">
+    <a href="#" class="logo">ÉLAN<span>.</span></a>
+
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#beauty">Beauty</a>
+      <a href="#fashion">Fashion</a>
+      <a href="#shop">Shop All</a>
+      <a href="#about">Our Story</a>
+    </nav>
+
+    <a href="#shop" class="bag-link">Explore Collection ↗</a>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="eyebrow">THE ÉLAN EDIT · 2026</span>
+      <h1>Elegance in<br>every <em>detail.</em></h1>
+      <p>
+        Discover thoughtfully selected pieces that bring beauty,
+        style and a little luxury into your everyday life.
+      </p>
+      <a href="#categories" class="button dark-button">Explore the collection ↗</a>
+      <div class="hero-note">A LITTLE LUXURY, EVERY DAY.</div>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://i.pinimg.com/736x/ad/99/ce/ad99ceaf8bfd9b6916e53401dcaaf6d2.jpg" alt="ÉLAN fashion collection">
+      <div class="hero-stamp">
+        <span>THE NEW</span>
+        <strong>ÉLAN<br>EDIT</strong>
+        <span>EST. 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="benefits">
+    <div><span>✧</span><strong>Thoughtful Selection</strong><small>Pieces chosen with care</small></div>
+    <div><span>◇</span><strong>Everyday Elegance</strong><small>Style that feels effortless</small></div>
+    <div><span>♡</span><strong>Made for You</strong><small>Find your personal favourites</small></div>
+    <div><span>✦</span><strong>A Beautiful Experience</strong><small>Luxury in every detail</small></div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section categories-section" id="categories">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">DISCOVER YOUR STYLE</span>
+        <h2>Explore our <em>collections.</em></h2>
+      </div>
+      <p>Seven carefully curated worlds. One place to discover everything you love.</p>
+    </div>
+
+    <div class="category-grid">
+      <a href="#beauty" class="category-card">
+        <img src="https://i.pinimg.com/736x/73/92/fc/7392fccd53884d348b5381c07d479717.jpg" alt="Beauty and makeup">
+        <div><h3>Beauty & Makeup</h3><span>EXPLORE COLLECTION ↗</span></div>
+      </a>
+
+      <a href="#fashion" class="category-card">
+        <img src="https://i.pinimg.com/736x/ad/99/ce/ad99ceaf8bfd9b6916e53401dcaaf6d2.jpg" alt="Fashion and clothing">
+        <div><h3>Fashion & Clothing</h3><span>EXPLORE COLLECTION ↗</span></div>
+      </a>
+
+      <a href="#jewellery" class="category-card">
+        <img src="https://i.pinimg.com/736x/81/dc/87/81dc87b186504485e55d65ee533d57b5.jpg" alt="Jewellery and accessories">
+        <div><h3>Jewellery & Accessories</h3><span>EXPLORE COLLECTION ↗</span></div>
+      </a>
+
+      <a href="#skincare" class="category-card">
+        <img src="https://i.pinimg.com/736x/4c/56/5a/4c565ad73d164af89eecbbe87a37a8d3.jpg" alt="Skincare">
+        <div><h3>Skincare & Personal Care</h3><span>EXPLORE COLLECTION ↗</span></div>
+      </a>
+
+      <a href="#electronics" class="category-card">
+        <img src="https://i.pinimg.com/736x/77/21/05/77210574074880be5cb26ef07e84e96b.jpg" alt="Electronics">
+        <div><h3>Electronics & Gadgets</h3><span>EXPLORE COLLECTION ↗</span></div>
+      </a>
+
+      <a href="#home-living" class="category-card">
+        <img src="https://i.pinimg.com/736x/19/97/7c/19977c21115579a5705f3d58d29b098f.jpg" alt="Home and living">
+        <div><h3>Home & Living</h3><span>EXPLORE COLLECTION ↗</span></div>
+      </a>
+
+      <a href="#lifestyle" class="category-card">
+        <img src="https://i.pinimg.com/736x/f4/b8/9a/f4b89a469f05af48034b93e9c358543e.jpg" alt="Lifestyle and sports">
+        <div><h3>Lifestyle & Sports</h3><span>EXPLORE COLLECTION ↗</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- PROMOTION -->
+  <section class="promotion">
+    <div>
+      <span class="eyebrow">A SEASON OF BEAUTIFUL FINDS</span>
+      <h2>Something lovely<br>is waiting for you.</h2>
+      <p>Discover selected favourites and find your next everyday essential.</p>
+      <a href="#shop" class="button light-button">Discover the edit ↗</a>
+    </div>
+    <div class="promotion-circle">THE<br><strong>ÉLAN</strong><br>SELECTION</div>
+  </section>
+
+  <!-- SHOP INTRO -->
+  <section class="section shop-intro" id="shop">
+    <span class="eyebrow">THE COMPLETE COLLECTION</span>
+    <h2>Find something <em>you love.</em></h2>
+    <p>Explore all 70 pieces across our seven signature categories.</p>
+    <div class="shop-links">
+      <a href="#beauty">Beauty</a>
+      <a href="#fashion">Fashion</a>
+      <a href="#jewellery">Jewellery</a>
+      <a href="#skincare">Skincare</a>
+      <a href="#electronics">Electronics</a>
+      <a href="#home-living">Home</a>
+      <a href="#lifestyle">Lifestyle</a>
+    </div>
+  </section>
+
+  <!-- 1. BEAUTY -->
+  <section class="product-section" id="beauty">
+    <div class="section-heading">
+      <div><span class="eyebrow">01 · THE BEAUTY EDIT</span><h2>Beauty & <em>Makeup.</em></h2></div>
+      <span class="collection-count">10 PIECES</span>
+    </div>
+    <div class="product-grid">
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/73/92/fc/7392fccd53884d348b5381c07d479717.jpg" alt="Velvet Matte Lipstick"></div><div class="product-info"><span>BESTSELLER</span><h3>Velvet Matte Lipstick</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹799 <del>₹959</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/c0/9e/d5/c09ed58466d0e23214657b86df668886.jpg" alt="Luminous Beauty Palette"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Luminous Beauty Palette</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹974 <del>₹1,169</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/43/f1/60/43f160753e2e1393fb4ba20b777ebb81.jpg" alt="Soft Glow Blush"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Soft Glow Blush</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹1,149 <del>₹1,379</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/6c/f6/e1/6cf6e1a8bc02db09cdb3446cb9dda204.jpg" alt="Everyday Makeup Essential"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Everyday Makeup Essential</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹1,324 <del>₹1,589</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/a7/d1/12/a7d1124394099f859d6f7cacda758f25.jpg" alt="Radiance Foundation"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Radiance Foundation</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹1,499 <del>₹1,799</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/fa/59/40/fa59406340ba40ce26b5d269b2a19f9f.jpg" alt="The Beauty Edit"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Beauty Edit</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹1,674 <del>₹2,009</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/90/69/51/9069517e065b56c4881f0ac4f152f868.jpg" alt="Silk Finish Collection"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Silk Finish Collection</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹1,849 <del>₹2,219</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/b1/0f/51/b10f514c9d9709b021806bb9b0a4b5e0.jpg" alt="Glow and Grace"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Glow & Grace</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹2,024 <del>₹2,429</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/54/70/79/547079c8b905fd9a0b50028232fb59fa.jpg" alt="Signature Makeup Set"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Signature Makeup Set</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹2,199 <del>₹2,639</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/1f/d8/8b/1fd88b66f170b44443da5359f2629d33.jpg" alt="The Finishing Touch"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Finishing Touch</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹2,374 <del>₹2,849</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+    </div>
+  </section>
+
+  <!-- 2. FASHION -->
+  <section class="product-section alternate" id="fashion">
+    <div class="section-heading">
+      <div><span class="eyebrow">02 · THE STYLE EDIT</span><h2>Fashion & <em>Clothing.</em></h2></div>
+      <span class="collection-count">10 PIECES</span>
+    </div>
+    <div class="product-grid">
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/ad/99/ce/ad99ceaf8bfd9b6916e53401dcaaf6d2.jpg" alt="The Everyday Dress"></div><div class="product-info"><span>BESTSELLER</span><h3>The Everyday Dress</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹1,199 <del>₹1,439</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/cf/c3/bf/cfc3bfde72503da23b6f279a1051fe39.jpg" alt="Modern Style Edit"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Modern Style Edit</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹1,374 <del>₹1,649</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/de/23/3a/de233a7f73835502ccabb52ec6e2371c.jpg" alt="Classic Wardrobe Essential"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Classic Wardrobe Essential</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹1,549 <del>₹1,859</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/46/d8/a9/46d8a9bbbb9c547afb5305df99328cea.jpg" alt="Effortless Co-ord"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Effortless Co-ord</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹1,724 <del>₹2,069</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/5e/70/99/5e7099b7df6db9c3e0d91a9368ab2456.jpg" alt="The Weekend Look"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Weekend Look</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹1,899 <del>₹2,279</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/97/42/41/974241f7daa9f334ba804e7d5c2d2405.jpg" alt="Timeless Fashion Piece"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Timeless Fashion Piece</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹2,074 <del>₹2,489</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/dc/e0/da/dce0da0421b7ce40cda5910ebcd8163f.jpg" alt="Everyday Elegance"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Everyday Elegance</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹2,249 <del>₹2,699</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/df/b3/28/dfb32819d94907622961182b203719bf.jpg" alt="The Signature Outfit"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Signature Outfit</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹2,424 <del>₹2,909</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/1b/bc/dd/1bbcdd6abacf0b78cd6e5a0d5ed78fe0.jpg" alt="Chic Style Collection"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Chic Style Collection</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹2,599 <del>₹3,119</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/37/44/c0/3744c084196033e725ff8434620cdcec.jpg" alt="The New Season Edit"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The New Season Edit</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹2,774 <del>₹3,329</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+    </div>
+  </section>
+
+  <!-- 3. JEWELLERY -->
+  <section class="product-section" id="jewellery">
+    <div class="section-heading">
+      <div><span class="eyebrow">03 · THE DETAIL EDIT</span><h2>Jewellery & <em>Accessories.</em></h2></div>
+      <span class="collection-count">10 PIECES</span>
+    </div>
+    <div class="product-grid">
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/81/dc/87/81dc87b186504485e55d65ee533d57b5.jpg" alt="Golden Hour Earrings"></div><div class="product-info"><span>BESTSELLER</span><h3>Golden Hour Earrings</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹1,499 <del>₹1,799</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/39/84/95/398495fcc75b1e8cff2dc93fe21e0c0b.jpg" alt="The Classic Necklace"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Classic Necklace</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹1,674 <del>₹2,009</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/a1/30/4d/a1304d27f8551e78291d8dbfee03bd5a.jpg" alt="Everyday Elegance Ring"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Everyday Elegance Ring</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹1,849 <del>₹2,219</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/4c/1e/cb/4c1ecb066b21728f4223969a6879be88.jpg" alt="Signature Bracelet"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Signature Bracelet</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹2,024 <del>₹2,429</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/4d/0e/6b/4d0e6b648213355fe1e176148c27b96c.jpg" alt="The Statement Piece"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Statement Piece</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹2,199 <del>₹2,639</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/9d/56/7b/9d567bf79259d8e8bec91389c9419780.jpg" alt="Delicate Gold Edit"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Delicate Gold Edit</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹2,374 <del>₹2,849</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/83/6a/63/836a63dc9e30c4726b1f80acb58896df.jpg" alt="Modern Muse Jewellery"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Modern Muse Jewellery</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹2,549 <del>₹3,059</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/ca/82/da/ca82da113da6342d45b073bfaea62d4b.jpg" alt="The Timeless Pair"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Timeless Pair</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹2,724 <del>₹3,269</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/da/1d/a3/da1da3c67e956ee1ef6f7df43c587823.jpg" alt="Golden Touch Collection"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Golden Touch Collection</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹2,899 <del>₹3,479</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/29/d1/cc/29d1cc9c923c4b8af7b91f54b4ebe94c.jpg" alt="The Finishing Detail"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Finishing Detail</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹3,074 <del>₹3,689</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+    </div>
+  </section>
+
+  <!-- 4. SKINCARE -->
+  <section class="product-section alternate" id="skincare">
+    <div class="section-heading">
+      <div><span class="eyebrow">04 · THE SELF-CARE EDIT</span><h2>Skincare & <em>Personal Care.</em></h2></div>
+      <span class="collection-count">10 PIECES</span>
+    </div>
+    <div class="product-grid">
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/4c/56/5a/4c565ad73d164af89eecbbe87a37a8d3.jpg" alt="Daily Glow Serum"></div><div class="product-info"><span>BESTSELLER</span><h3>Daily Glow Serum</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹899 <del>₹1,079</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/ad/55/30/ad553072235a0408b20fffe2708d6239.jpg" alt="Hydration Essentials"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Hydration Essentials</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹1,074 <del>₹1,289</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/61/a6/52/61a6520011c817249804c97fd69031c7.jpg" alt="The Skin Ritual"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Skin Ritual</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹1,249 <del>₹1,499</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/d8/ef/0a/d8ef0a65182119492e93769b94ab0b5b.jpg" alt="Gentle Care Cleanser"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Gentle Care Cleanser</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹1,424 <del>₹1,709</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/bc/bd/ce/bcbdce3e7d4a6e09c45567d64057eecf.jpg" alt="Radiance Moisturizer"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Radiance Moisturizer</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹1,599 <del>₹1,919</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/36/e8/86/36e886ebc85f5e1a14b77731fc5d1fc9.jpg" alt="The Daily Formula"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Daily Formula</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹1,774 <del>₹2,129</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/cb/7e/11/cb7e1158c3145ef47034b23d34c0633b.jpg" alt="Skin Comfort Collection"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Skin Comfort Collection</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹1,949 <del>₹2,339</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/55/bb/86/55bb863f1f122782637e99207275b720.jpg" alt="Fresh Face Essential"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Fresh Face Essential</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹2,124 <del>₹2,549</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/af/dd/4d/afdd4df19c04e6edd4febee6dfd1653e.jpg" alt="The Glow Routine"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Glow Routine</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹2,299 <del>₹2,759</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/ca/81/f6/ca81f6b1535ce14bb9578a1bfc91b85b.jpg" alt="Everyday Skin Care"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Everyday Skin Care</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹2,474 <del>₹2,969</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+    </div>
+  </section>
+
+  <!-- 5. ELECTRONICS -->
+  <section class="product-section" id="electronics">
+    <div class="section-heading">
+      <div><span class="eyebrow">05 · THE TECH EDIT</span><h2>Electronics & <em>Gadgets.</em></h2></div>
+      <span class="collection-count">10 PIECES</span>
+    </div>
+    <div class="product-grid">
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/77/21/05/77210574074880be5cb26ef07e84e96b.jpg" alt="The Everyday Headphones"></div><div class="product-info"><span>BESTSELLER</span><h3>The Everyday Headphones</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹2,499 <del>₹2,999</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/38/0e/c4/380ec4a4145c715b1e5cc3989fc0aac6.jpg" alt="Smart Living Essential"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Smart Living Essential</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹2,674 <del>₹3,209</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/db/30/b3/db30b34e6a44613a909609381edc00b8.jpg" alt="Modern Sound Collection"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Modern Sound Collection</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹2,849 <del>₹3,419</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/d8/67/e2/d867e25416f27feca2d56e08b4ce7523.jpg" alt="Wireless Companion"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Wireless Companion</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹3,024 <del>₹3,629</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/07/d2/81/07d281dfdc97d3f65ffdda4449b170c6.jpg" alt="The Digital Edit"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Digital Edit</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹3,199 <del>₹3,839</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/d6/8f/36/d68f3667a9661426665af41afb5504d4.jpg" alt="Everyday Tech Essential"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Everyday Tech Essential</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹3,374 <del>₹4,049</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/1a/9c/87/1a9c877e8f1b4c184f7c51d8a3cd8af2.jpg" alt="Smart Style Gadget"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Smart Style Gadget</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹3,549 <del>₹4,259</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/bb/81/22/bb8122682804d17eaad793a9ceeae5e4.jpg" alt="The Sound Experience"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Sound Experience</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹3,724 <del>₹4,469</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/12/36/ef/1236ef0a8e27f8b366a750d19d203289.jpg" alt="Modern Tech Accessory"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Modern Tech Accessory</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹3,899 <del>₹4,679</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/3f/c1/01/3fc10141ee6c9ca201204e13baa47b98.jpg" alt="The Lifestyle Device"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Lifestyle Device</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹4,074 <del>₹4,889</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+    </div>
+  </section>
+
+  <!-- 6. HOME -->
+  <section class="product-section alternate" id="home-living">
+    <div class="section-heading">
+      <div><span class="eyebrow">06 · THE HOME EDIT</span><h2>Home & <em>Living.</em></h2></div>
+      <span class="collection-count">10 PIECES</span>
+    </div>
+    <div class="product-grid">
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/19/97/7c/19977c21115579a5705f3d58d29b098f.jpg" alt="The Minimalist Vase"></div><div class="product-info"><span>BESTSELLER</span><h3>The Minimalist Vase</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹1,299 <del>₹1,559</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/11/07/b9/1107b912aa9cb9fa2644b0955278977c.jpg" alt="Soft Living Cushion"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Soft Living Cushion</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹1,474 <del>₹1,769</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/0b/bf/69/0bbf6969ea37e848eb028e6d9b49e8c2.jpg" alt="Everyday Home Accent"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Everyday Home Accent</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹1,649 <del>₹1,979</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/0b/11/aa/0b11aa68714a1f10d661e965b9eb4663.jpg" alt="The Cozy Corner"></div><div class="product-info"><span>SPECIAL PICK</span><h3>The Cozy Corner</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹1,824 <del>₹2,189</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/fc/c6/e7/fcc6e75fc12d7f87bf6cba2fb8632f37.jpg" alt="Elegant Living Detail"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Elegant Living Detail</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹1,999 <del>₹2,399</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/originals/0a/41/8f/0a418fcc38e88c2a7247289760529b19.png" alt="The Decorative Edit"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Decorative Edit</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹2,174 <del>₹2,609</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/9d/26/c0/9d26c0c48a4b3a33e893c21a4709e418.jpg" alt="Warm Home Essential"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Warm Home Essential</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹2,349 <del>₹2,819</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/a2/ee/b1/a2eeb1993a1bd9d7701b7f2011808ced.jpg" alt="The Modern Centrepiece"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Modern Centrepiece</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹2,524 <del>₹3,029</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/23/0c/5e/230c5e75884bb30a23174124e7be9635.jpg" alt="Little Home Luxury"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Little Home Luxury</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹2,699 <del>₹3,239</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/a8/ef/11/a8ef11da414fec899cfb048fc1990aa9.jpg" alt="The Living Collection"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Living Collection</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹2,874 <del>₹3,449</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+    </div>
+  </section>
+
+  <!-- 7. LIFESTYLE -->
+  <section class="product-section" id="lifestyle">
+    <div class="section-heading">
+      <div><span class="eyebrow">07 · THE EVERYDAY EDIT</span><h2>Lifestyle & <em>Sports.</em></h2></div>
+      <span class="collection-count">10 PIECES</span>
+    </div>
+    <div class="product-grid">
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/f4/b8/9a/f4b89a469f05af48034b93e9c358543e.jpg" alt="The Everyday Essential"></div><div class="product-info"><span>BESTSELLER</span><h3>The Everyday Essential</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹999 <del>₹1,199</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/7b/55/50/7b55506dfe3172b5e2a277da9897b86a.jpg" alt="Active Living Companion"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Active Living Companion</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹1,174 <del>₹1,409</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/cf/4a/83/cf4a83c67dfb6e76ef2c73f956418c88.jpg" alt="The Travel Edit"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Travel Edit</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹1,349 <del>₹1,619</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/5e/03/e2/5e03e2578d25599f127e33cfc38e0b6c.jpg" alt="Modern Movement"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Modern Movement</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹1,524 <del>₹1,829</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/94/7b/64/947b64a0e481994b8361ce7d8968462a.jpg" alt="Everyday Adventure"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Everyday Adventure</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹1,699 <del>₹2,039</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/ed/05/32/ed053283fed1e91eaf9cd89db6a74525.jpg" alt="The Active Collection"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Active Collection</h3><div class="rating">★★★★★ <small>4.5</small></div><div class="price">₹1,874 <del>₹2,249</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/49/6a/dc/496adcd4818c8bc9e0e77fd152210b37.jpg" alt="Weekend Essential"></div><div class="product-info"><span>SPECIAL PICK</span><h3>Weekend Essential</h3><div class="rating">★★★★★ <small>4.6</small></div><div class="price">₹2,049 <del>₹2,459</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/e5/15/41/e51541d45b081f608e1e7976de0c7d17.jpg" alt="The Lifestyle Favourite"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Lifestyle Favourite</h3><div class="rating">★★★★★ <small>4.7</small></div><div class="price">₹2,224 <del>₹2,669</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/736x/02/fb/75/02fb750bb0b2c5a8f75c739c49ab55bd.jpg" alt="Move With Ease"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>Move With Ease</h3><div class="rating">★★★★★ <small>4.8</small></div><div class="price">₹2,399 <del>₹2,879</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+      <article class="product-card"><div class="product-photo"><img src="https://i.pinimg.com/1200x/79/eb/99/79eb996e83836a90e718aea6e4d52e8e.jpg" alt="The Everyday Edit"></div><div class="product-info"><span>ÉLAN EDIT</span><h3>The Everyday Edit</h3><div class="rating">★★★★★ <small>4.9</small></div><div class="price">₹2,574 <del>₹3,089</del></div><a href="#contact" class="add-button">Add to bag +</a></div></article>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="about-image">
+      <img src="https://i.pinimg.com/736x/19/97/7c/19977c21115579a5705f3d58d29b098f.jpg" alt="Beautiful everyday living">
+    </div>
+    <div class="about-copy">
+      <span class="eyebrow">A NOTE FROM ÉLAN</span>
+      <h2>It's not just what you wear or own. It's how it <em>makes you feel.</em></h2>
+      <p>
+        ÉLAN is a celebration of thoughtful choices, timeless details and
+        the little things that make everyday life feel special.
+      </p>
+      <p>
+        From beauty and personal style to the spaces we call home,
+        we bring together collections designed to inspire your own expression.
+      </p>
+      <a href="#categories" class="text-link">DISCOVER OUR COLLECTIONS ↗</a>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section reviews-section">
+    <div class="section-heading centered">
+      <div><span class="eyebrow">KIND WORDS</span><h2>A little love from <em>you.</em></h2></div>
+    </div>
+    <div class="review-grid">
+      <article class="review-card">
+        <div class="rating">★★★★★</div>
+        <p>“A lovely collection and such a beautiful shopping experience. Everything feels thoughtfully selected.”</p>
+        <strong>— A Happy Customer</strong>
+      </article>
+      <article class="review-card">
+        <div class="rating">★★★★★</div>
+        <p>“I love the elegant style and the variety. It feels like discovering something special every time.”</p>
+        <strong>— A Happy Customer</strong>
+      </article>
+      <article class="review-card">
+        <div class="rating">★★★★★</div>
+        <p>“Beautiful pieces, lovely presentation and a collection that makes everyday shopping feel special.”</p>
+        <strong>— A Happy Customer</strong>
+      </article>
+    </div>
+    <p class="review-disclaimer">Sample testimonials for website presentation.</p>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter" id="contact">
+    <span class="eyebrow">STAY IN THE KNOW</span>
+    <h2>A little note from <em>ÉLAN.</em></h2>
+    <p>Discover new collections, thoughtful edits and beautiful finds.</p>
+    <a href="mailto:hello@example.com" class="button dark-button">Get in touch ↗</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-main">
+      <div>
+        <a href="#" class="logo">ÉLAN<span>.</span></a>
+        <p>The art of everyday luxury. Thoughtfully selected pieces for a life beautifully lived.</p>
+      </div>
+
+      <div>
+        <h4>EXPLORE</h4>
+        <a href="#categories">All Categories</a>
+        <a href="#beauty">Beauty & Makeup</a>
+        <a href="#fashion">Fashion & Clothing</a>
+        <a href="#jewellery">Jewellery</a>
+      </div>
+
+      <div>
+        <h4>DISCOVER</h4>
+        <a href="#skincare">Skincare</a>
+        <a href="#electronics">Electronics</a>
+        <a href="#home-living">Home & Living</a>
+        <a href="#lifestyle">Lifestyle</a>
+      </div>
+
+      <div>
+        <h4>THE ÉLAN STORY</h4>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <p>Made with care, for the love of beautiful details.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 ÉLAN. All rights reserved.</span>
+      <span>THE ART OF EVERYDAY LUXURY.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
