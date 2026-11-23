@@ -1,1 +1,660 @@
-hotel booking website using html and css
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ÉLÉGANCE | Luxury Hotel & Suites</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    AN EXCEPTIONAL STAY, BEAUTIFULLY REIMAGINED
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="header">
+    <a href="#" class="logo">
+      <span>ÉLÉGANCE</span>
+      <small>HOTELS & RESORTS</small>
+    </a>
+
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#rooms">Rooms & Suites</a>
+      <a href="#experience">Experience</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact" class="nav-button">Enquire Now</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">A WORLD OF REFINED HOSPITALITY</p>
+
+      <h1>Stay somewhere<br>extraordinary.</h1>
+
+      <p class="hero-description">
+        Discover a beautiful balance of timeless elegance,
+        thoughtful comfort and unforgettable experiences.
+      </p>
+
+      <a href="#rooms" class="gold-button">EXPLORE OUR ROOMS</a>
+    </div>
+
+    <div class="hero-bottom">
+      <span>01 — 06</span>
+      <span>AN EXPERIENCE BEYOND EXPECTATIONS</span>
+    </div>
+  </section>
+
+  <!-- INTRODUCTION -->
+  <section class="intro section-padding">
+    <div class="intro-label">WELCOME TO ÉLÉGANCE</div>
+
+    <div class="intro-content">
+      <h2>Where every stay<br>becomes a <em>beautiful memory.</em></h2>
+
+      <div class="intro-text">
+        <p>
+          At ÉLÉGANCE, luxury is not simply experienced.
+          It is felt in every detail, every thoughtful gesture
+          and every moment of your stay.
+        </p>
+
+        <p>
+          From beautifully designed rooms to exceptional
+          hospitality, discover a place where comfort meets
+          sophistication.
+        </p>
+
+        <a href="#experience" class="text-link">DISCOVER OUR STORY ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROOMS -->
+  <section class="rooms-section section-padding" id="rooms">
+
+    <div class="section-heading">
+      <p class="eyebrow">YOUR PRIVATE SANCTUARY</p>
+      <h2>Rooms & <em>Suites</em></h2>
+      <p>
+        Thoughtfully designed spaces, exceptional comfort
+        and beautiful details for every kind of traveller.
+      </p>
+    </div>
+
+    <!-- CATEGORY NAVIGATION -->
+    <nav class="category-nav">
+      <a href="#standard">Standard Rooms</a>
+      <a href="#deluxe">Deluxe Rooms</a>
+      <a href="#executive">Executive Rooms</a>
+      <a href="#premium">Premium Suites</a>
+      <a href="#family">Family Suites</a>
+      <a href="#presidential">Presidential Suites</a>
+    </nav>
+
+    <!-- STANDARD ROOMS -->
+    <section class="room-category" id="standard">
+      <div class="category-heading">
+        <div>
+          <p class="eyebrow">01 / COMFORT REDEFINED</p>
+          <h3>Standard <em>Rooms</em></h3>
+          <p>Beautifully appointed spaces for a relaxing stay.</p>
+        </div>
+        <span class="room-count">10 ROOMS</span>
+      </div>
+
+      <div class="room-grid">
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/b0/9a/2c/b09a2c008027a264692e4ac0364361d1.jpg" alt="Standard room 1">
+          <div class="room-info"><h4>Classic Comfort</h4><p>Elegant interiors · King comfort</p><div class="room-bottom"><span>From ₹3,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/a8/2a/35/a82a3580c274664e6e1b65ba90b3f0e3.jpg" alt="Standard room 2">
+          <div class="room-info"><h4>Essential Retreat</h4><p>Warm design · Modern amenities</p><div class="room-bottom"><span>From ₹3,800 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/81/1b/6f/811b6f20eb951a8518ef87ad98c324fe.jpg" alt="Standard room 3">
+          <div class="room-info"><h4>Serene Escape</h4><p>Soft interiors · Peaceful ambience</p><div class="room-bottom"><span>From ₹3,900 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/80/76/3f/80763f53fe636db9f99ba1c8b1e5d7a8.jpg" alt="Standard room 4">
+          <div class="room-info"><h4>Urban Comfort</h4><p>Contemporary style · Relaxing stay</p><div class="room-bottom"><span>From ₹4,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/74/10/0b/74100b6ec47072b47effe18c367f8a29.jpg" alt="Standard room 5">
+          <div class="room-info"><h4>Quiet Haven</h4><p>Calming tones · Thoughtful details</p><div class="room-bottom"><span>From ₹3,700 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/53/a7/7a/53a77ab7693c84f299e73831bc9967c2.jpg" alt="Standard room 6">
+          <div class="room-info"><h4>Modern Classic</h4><p>Classic elegance · Modern comfort</p><div class="room-bottom"><span>From ₹4,100 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/01/1b/5d/011b5d5966ffb385dae9090c3bb2a8a6.jpg" alt="Standard room 7">
+          <div class="room-info"><h4>Signature Stay</h4><p>Beautiful interiors · Everyday luxury</p><div class="room-bottom"><span>From ₹4,200 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/7e/4e/d7/7e4ed79aa40ffcdd9cdfe388c4ee1b3b.jpg" alt="Standard room 8">
+          <div class="room-info"><h4>Comfort Residence</h4><p>Spacious layout · Refined details</p><div class="room-bottom"><span>From ₹3,900 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/14/46/e8/1446e851386f75b0aac260ea472875e2.jpg" alt="Standard room 9">
+          <div class="room-info"><h4>Elegant Corner</h4><p>Understated luxury · Restful comfort</p><div class="room-bottom"><span>From ₹4,300 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/ad/38/6b/ad386ba889260c2f80af37956eaf796b.jpg" alt="Standard room 10">
+          <div class="room-info"><h4>Grand Standard</h4><p>Welcoming interiors · Premium comfort</p><div class="room-bottom"><span>From ₹4,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- DELUXE ROOMS -->
+    <section class="room-category" id="deluxe">
+      <div class="category-heading">
+        <div>
+          <p class="eyebrow">02 / A LITTLE MORE LUXURY</p>
+          <h3>Deluxe <em>Rooms</em></h3>
+          <p>Extra space and elevated details for a special stay.</p>
+        </div>
+        <span class="room-count">7 UNIQUE ROOMS</span>
+      </div>
+
+      <div class="room-grid">
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/76/01/1f/76011f4b661506e5ae1bd499cb078967.jpg" alt="Deluxe room 1">
+          <div class="room-info"><h4>Deluxe Serenity</h4><p>Elevated comfort · Elegant design</p><div class="room-bottom"><span>From ₹5,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/06/a0/05/06a0059273f81d24916d655045295754.jpg" alt="Deluxe room 2">
+          <div class="room-info"><h4>Deluxe Harmony</h4><p>Warm interiors · Relaxing ambience</p><div class="room-bottom"><span>From ₹5,800 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/a8/c7/1d/a8c71d2bbbef92ed90e7464236210d20.jpg" alt="Deluxe room 3">
+          <div class="room-info"><h4>Deluxe Elegance</h4><p>Beautiful details · Premium comfort</p><div class="room-bottom"><span>From ₹6,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/c7/05/82/c70582ace59a21310b39b838b19ef5e6.jpg" alt="Deluxe room 4">
+          <div class="room-info"><h4>Deluxe Residence</h4><p>Spacious interiors · Modern luxury</p><div class="room-bottom"><span>From ₹6,200 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/46/67/8f/46678f6ad70f037e7c2f8c56a1739972.jpg" alt="Deluxe room 5">
+          <div class="room-info"><h4>Deluxe Retreat</h4><p>Peaceful setting · Thoughtful luxury</p><div class="room-bottom"><span>From ₹5,900 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/66/86/65/668665aa43017c6afe01fccd3f5b0760.jpg" alt="Deluxe room 6">
+          <div class="room-info"><h4>Deluxe Signature</h4><p>Refined styling · Beautiful comfort</p><div class="room-bottom"><span>From ₹6,400 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/09/40/f0/0940f0dccdc04da96dd434e43fc8486e.jpg" alt="Deluxe room 7">
+          <div class="room-info"><h4>Deluxe Grand</h4><p>Contemporary elegance · Extra space</p><div class="room-bottom"><span>From ₹6,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EXECUTIVE ROOMS -->
+    <section class="room-category" id="executive">
+      <div class="category-heading">
+        <div>
+          <p class="eyebrow">03 / THE ART OF LIVING WELL</p>
+          <h3>Executive <em>Rooms</em></h3>
+          <p>Designed for guests who appreciate space and distinction.</p>
+        </div>
+        <span class="room-count">9 ROOMS</span>
+      </div>
+
+      <div class="room-grid">
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/f5/06/e2/f506e258f6299a118d72f699200a7395.jpg" alt="Executive room 1">
+          <div class="room-info"><h4>Executive Classic</h4><p>Elegant setting · Refined comfort</p><div class="room-bottom"><span>From ₹7,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/c2/cb/dc/c2cbdccfcca6cdc748471196f6e448f0.jpg" alt="Executive room 2">
+          <div class="room-info"><h4>Executive Serenity</h4><p>Quiet luxury · Spacious interiors</p><div class="room-bottom"><span>From ₹7,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/19/2a/c8/192ac8d96343a2877c6e843469b3c344.jpg" alt="Executive room 3">
+          <div class="room-info"><h4>Executive Haven</h4><p>Modern style · Premium details</p><div class="room-bottom"><span>From ₹7,800 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/34/13/28/341328de67fbe16a82dc8e3f3d89d565.jpg" alt="Executive room 4">
+          <div class="room-info"><h4>Executive Suite Room</h4><p>Generous space · Elegant atmosphere</p><div class="room-bottom"><span>From ₹8,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/25/62/c9/2562c9700a5c77bce64455a4f8251304.jpg" alt="Executive room 5">
+          <div class="room-info"><h4>Executive Comfort</h4><p>Understated luxury · Relaxing stay</p><div class="room-bottom"><span>From ₹7,600 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/c3/a5/f5/c3a5f5dbf67971252533c65278578bb2.jpg" alt="Executive room 6">
+          <div class="room-info"><h4>Executive Signature</h4><p>Distinctive interiors · Thoughtful design</p><div class="room-bottom"><span>From ₹8,200 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/bd/f8/2d/bdf82d170e940e04ef8749403575897e.jpg" alt="Executive room 7">
+          <div class="room-info"><h4>Executive Grand</h4><p>Classic elegance · Modern amenities</p><div class="room-bottom"><span>From ₹8,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/b8/7a/73/b87a730616a341561ce598c1775e6629.jpg" alt="Executive room 8">
+          <div class="room-info"><h4>Executive Residence</h4><p>Beautiful surroundings · Extra comfort</p><div class="room-bottom"><span>From ₹8,300 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/92/45/6a/92456a17ad49bdc529ec4163177a7983.jpg" alt="Executive room 9">
+          <div class="room-info"><h4>Executive Retreat</h4><p>Elevated living · Calm sophistication</p><div class="room-bottom"><span>From ₹8,700 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PREMIUM SUITES -->
+    <section class="room-category" id="premium">
+      <div class="category-heading">
+        <div>
+          <p class="eyebrow">04 / LUXURY WITHOUT COMPROMISE</p>
+          <h3>Premium <em>Suites</em></h3>
+          <p>Beautifully spacious suites with a more exclusive feel.</p>
+        </div>
+        <span class="room-count">9 UNIQUE SUITES</span>
+      </div>
+
+      <div class="room-grid">
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/1a/4b/72/1a4b727c57e0434039882eca1a07e5fe.jpg" alt="Premium suite 1">
+          <div class="room-info"><h4>Premium Serenity</h4><p>Exclusive interiors · Luxurious comfort</p><div class="room-bottom"><span>From ₹10,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/b0/24/01/b0240106f54fd9303c3943685b067e4f.jpg" alt="Premium suite 2">
+          <div class="room-info"><h4>Premium Harmony</h4><p>Elegant living · Spacious design</p><div class="room-bottom"><span>From ₹10,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/e7/1a/df/e71adf4319d9cab4245bb86a37accb8d.jpg" alt="Premium suite 3">
+          <div class="room-info"><h4>Premium Elegance</h4><p>Refined details · Beautiful interiors</p><div class="room-bottom"><span>From ₹11,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/d6/0b/48/d60b48e92581ec9db883eb3729ac3891.jpg" alt="Premium suite 4">
+          <div class="room-info"><h4>Premium Grand</h4><p>Grand proportions · Exceptional comfort</p><div class="room-bottom"><span>From ₹12,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/51/43/1c/51431c7e29397c78ca5761729209542e.jpg" alt="Premium suite 5">
+          <div class="room-info"><h4>Premium Residence</h4><p>Private luxury · Thoughtful styling</p><div class="room-bottom"><span>From ₹11,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/d1/01/07/d10107d42acad2cc0463d2169686e313.jpg" alt="Premium suite 6">
+          <div class="room-info"><h4>Premium Retreat</h4><p>Quiet sophistication · Generous space</p><div class="room-bottom"><span>From ₹12,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/f8/7d/2b/f87d2b8787ad2b657445750a7ab8d17d.jpg" alt="Premium suite 7">
+          <div class="room-info"><h4>Premium Signature</h4><p>Distinctive design · Elevated living</p><div class="room-bottom"><span>From ₹13,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/48/7a/be/487abe0f44c99a0d9b9ad7ebf94dfb21.jpg" alt="Premium suite 8">
+          <div class="room-info"><h4>Premium Imperial</h4><p>Elegant atmosphere · Premium amenities</p><div class="room-bottom"><span>From ₹13,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/12/b2/61/12b26115ab87900689d5440855bdd6b1.jpg" alt="Premium suite 9">
+          <div class="room-info"><h4>Premium Collection</h4><p>Beautifully curated · Unforgettable comfort</p><div class="room-bottom"><span>From ₹14,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- FAMILY SUITES -->
+    <section class="room-category" id="family">
+      <div class="category-heading">
+        <div>
+          <p class="eyebrow">05 / SPACE TO BE TOGETHER</p>
+          <h3>Family <em>Suites</em></h3>
+          <p>Comfortable, welcoming spaces made for shared moments.</p>
+        </div>
+        <span class="room-count">8 UNIQUE SUITES</span>
+      </div>
+
+      <div class="room-grid">
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/6e/fe/21/6efe21f7738913df1095c54dc00b3485.jpg" alt="Family suite 1">
+          <div class="room-info"><h4>Family Comfort</h4><p>Welcoming interiors · Spacious living</p><div class="room-bottom"><span>From ₹12,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/b7/0f/16/b70f160cb191a54a14cc4b715c815b41.jpg" alt="Family suite 2">
+          <div class="room-info"><h4>Family Harmony</h4><p>Thoughtful layout · Relaxing comfort</p><div class="room-bottom"><span>From ₹12,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/73/cd/79/73cd7936ac656a41f6656fef006a720d.jpg" alt="Family suite 3">
+          <div class="room-info"><h4>Family Retreat</h4><p>Generous space · Warm atmosphere</p><div class="room-bottom"><span>From ₹13,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/a6/f4/04/a6f404f1f59bbe880700b7522d5fddb6.jpg" alt="Family suite 4">
+          <div class="room-info"><h4>Family Residence</h4><p>Beautiful interiors · Everyday luxury</p><div class="room-bottom"><span>From ₹13,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/54/3b/b7/543bb72609c116e898037127d26024a2.jpg" alt="Family suite 5">
+          <div class="room-info"><h4>Family Signature</h4><p>Elegant comfort · Room for everyone</p><div class="room-bottom"><span>From ₹14,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/15/ec/4b/15ec4bf8d7caf73a692cf2708de706f8.jpg" alt="Family suite 6">
+          <div class="room-info"><h4>Family Escape</h4><p>Relaxed living · Thoughtful details</p><div class="room-bottom"><span>From ₹14,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/9f/f2/ee/9ff2ee5d3d048f882f9f07d05276f11a.jpg" alt="Family suite 7">
+          <div class="room-info"><h4>Family Grand</h4><p>Spacious interiors · Premium comfort</p><div class="room-bottom"><span>From ₹15,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/02/27/3f/02273f2568b055775825730c29f5001b.jpg" alt="Family suite 8">
+          <div class="room-info"><h4>Family Collection</h4><p>Special moments · Beautiful surroundings</p><div class="room-bottom"><span>From ₹15,500 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PRESIDENTIAL SUITES -->
+    <section class="room-category" id="presidential">
+      <div class="category-heading">
+        <div>
+          <p class="eyebrow">06 / THE ULTIMATE EXPRESSION OF LUXURY</p>
+          <h3>Presidential <em>Suites</em></h3>
+          <p>An exceptional experience defined by space and distinction.</p>
+        </div>
+        <span class="room-count">11 SUITES</span>
+      </div>
+
+      <div class="room-grid">
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/eb/9b/2f/eb9b2f0e79184fb6ed4d637ed3954607.jpg" alt="Presidential suite 1">
+          <div class="room-info"><h4>Presidential Classic</h4><p>Exceptional interiors · Private luxury</p><div class="room-bottom"><span>From ₹20,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/46/cf/5b/46cf5b4fc50f88291d6e8b624202dfbc.jpg" alt="Presidential suite 2">
+          <div class="room-info"><h4>Presidential Serenity</h4><p>Grand proportions · Refined comfort</p><div class="room-bottom"><span>From ₹21,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/48/aa/5d/48aa5d22489d18c897342197904561d7.jpg" alt="Presidential suite 3">
+          <div class="room-info"><h4>Presidential Harmony</h4><p>Beautiful design · Exclusive ambience</p><div class="room-bottom"><span>From ₹22,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/46/94/cf/4694cfb8f27ddfa3464a140856871fc8.jpg" alt="Presidential suite 4">
+          <div class="room-info"><h4>Presidential Grand</h4><p>Timeless elegance · Exceptional space</p><div class="room-bottom"><span>From ₹23,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/28/f6/14/28f614f9745463357c5827d2fd7aaf82.jpg" alt="Presidential suite 5">
+          <div class="room-info"><h4>Presidential Residence</h4><p>Distinctive interiors · Private retreat</p><div class="room-bottom"><span>From ₹24,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/be/76/38/be76386b37bf45225a93db0a433d80c6.jpg" alt="Presidential suite 6">
+          <div class="room-info"><h4>Presidential Signature</h4><p>Luxury details · Exclusive comfort</p><div class="room-bottom"><span>From ₹25,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/3d/2b/13/3d2b13b8c47ccda89e0366d8e3650307.jpg" alt="Presidential suite 7">
+          <div class="room-info"><h4>Presidential Imperial</h4><p>Grand living · Sophisticated design</p><div class="room-bottom"><span>From ₹26,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/1200x/58/5d/28/585d289d12d269042f583cff74cc30b7.jpg" alt="Presidential suite 8">
+          <div class="room-info"><h4>Presidential Retreat</h4><p>Serene luxury · Beautiful details</p><div class="room-bottom"><span>From ₹27,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/ee/43/fb/ee43fbfd6b5a6f6808654bdf5af83a84.jpg" alt="Presidential suite 9">
+          <div class="room-info"><h4>Presidential Excellence</h4><p>Exceptional hospitality · Elegant living</p><div class="room-bottom"><span>From ₹28,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/91/a8/1d/91a81d8345d6ca86a7426c06d7b035d3.jpg" alt="Presidential suite 10">
+          <div class="room-info"><h4>Presidential Prestige</h4><p>Exclusive atmosphere · Premium luxury</p><div class="room-bottom"><span>From ₹29,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+        <article class="room-card">
+          <img src="https://i.pinimg.com/736x/e8/7a/10/e87a10d678200d4d0456151c70a7dfdc.jpg" alt="Presidential suite 11">
+          <div class="room-info"><h4>The ÉLÉGANCE Suite</h4><p>The finest expression of our hospitality</p><div class="room-bottom"><span>From ₹30,000 / night</span><a href="#contact">ENQUIRE ↗</a></div></div>
+        </article>
+
+      </div>
+    </section>
+
+  </section>
+
+  <!-- EXPERIENCE / AMENITIES -->
+  <section class="experience-section section-padding" id="experience">
+    <div class="section-heading">
+      <p class="eyebrow">THE ÉLÉGANCE EXPERIENCE</p>
+      <h2>Every detail, <em>considered.</em></h2>
+      <p>More than a stay. A collection of experiences designed around you.</p>
+    </div>
+
+    <div class="amenities-grid">
+
+      <article class="amenity">
+        <span>01</span>
+        <div class="amenity-icon">✧</div>
+        <h3>Wellness & Spa</h3>
+        <p>Relax, restore and rediscover balance in a peaceful setting.</p>
+      </article>
+
+      <article class="amenity">
+        <span>02</span>
+        <div class="amenity-icon">◌</div>
+        <h3>Swimming Pool</h3>
+        <p>Take a refreshing pause and enjoy moments of tranquillity.</p>
+      </article>
+
+      <article class="amenity">
+        <span>03</span>
+        <div class="amenity-icon">♨</div>
+        <h3>Fine Dining</h3>
+        <p>Discover delightful flavours and thoughtfully prepared cuisine.</p>
+      </article>
+
+      <article class="amenity">
+        <span>04</span>
+        <div class="amenity-icon">◇</div>
+        <h3>Fitness Centre</h3>
+        <p>Maintain your routine in a well-equipped fitness space.</p>
+      </article>
+
+      <article class="amenity">
+        <span>05</span>
+        <div class="amenity-icon">⌁</div>
+        <h3>High-Speed Wi-Fi</h3>
+        <p>Stay connected with seamless internet throughout your stay.</p>
+      </article>
+
+      <article class="amenity">
+        <span>06</span>
+        <div class="amenity-icon">♡</div>
+        <h3>Personal Service</h3>
+        <p>Thoughtful hospitality that makes every moment feel special.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="story-section section-padding">
+    <div class="story-image"></div>
+
+    <div class="story-content">
+      <p class="eyebrow">OUR PHILOSOPHY</p>
+      <h2>Luxury is in the <em>little things.</em></h2>
+
+      <p>
+        We believe that the finest experiences are created
+        through thoughtful details. A warm welcome, a peaceful
+        room, a beautifully prepared meal and service that
+        always feels personal.
+      </p>
+
+      <p>
+        At ÉLÉGANCE, every moment is an opportunity to make
+        your stay truly memorable.
+      </p>
+
+      <a href="#contact" class="text-link">EXPERIENCE ÉLÉGANCE ↗</a>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews-section section-padding" id="reviews">
+    <div class="section-heading">
+      <p class="eyebrow">KIND WORDS, LASTING MEMORIES</p>
+      <h2>Guest <em>Experiences</em></h2>
+      <p>A glimpse into the moments our guests take with them.</p>
+    </div>
+
+    <div class="reviews-grid">
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>
+          “Beautiful interiors, a peaceful atmosphere and
+          thoughtful hospitality. Every detail made the stay
+          feel special.”
+        </p>
+        <h4>Guest Experience</h4>
+        <span>AN EXCEPTIONAL STAY</span>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>
+          “The rooms were elegant and comfortable. It was
+          a lovely experience from arrival to departure.”
+        </p>
+        <h4>Guest Experience</h4>
+        <span>A BEAUTIFUL GETAWAY</span>
+      </article>
+
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>
+          “A wonderful combination of comfort, style and
+          attentive service. I would love to visit again.”
+        </p>
+        <h4>Guest Experience</h4>
+        <span>TIMELESS HOSPITALITY</span>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOKING ENQUIRY -->
+  <section class="contact-section" id="contact">
+    <div class="contact-overlay"></div>
+
+    <div class="contact-content">
+      <p class="eyebrow">YOUR NEXT ESCAPE AWAITS</p>
+      <h2>Make room for<br><em>something beautiful.</em></h2>
+      <p>
+        Let us help you discover your perfect stay.
+        Get in touch with our team for booking enquiries.
+      </p>
+      <a href="mailto:reservations@elegancehotel.com" class="gold-button">MAKE AN ENQUIRY</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo footer-logo">
+          <span>ÉLÉGANCE</span>
+          <small>HOTELS & RESORTS</small>
+        </a>
+        <p>
+          A destination where timeless elegance meets
+          thoughtful hospitality.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>EXPLORE</h4>
+        <a href="#home">Home</a>
+        <a href="#rooms">Rooms & Suites</a>
+        <a href="#experience">Experience</a>
+        <a href="#reviews">Reviews</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>OUR COLLECTION</h4>
+        <a href="#standard">Standard Rooms</a>
+        <a href="#deluxe">Deluxe Rooms</a>
+        <a href="#premium">Premium Suites</a>
+        <a href="#presidential">Presidential Suites</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>GET IN TOUCH</h4>
+        <a href="mailto:reservations@elegancehotel.com">Email Us</a>
+        <a href="#contact">Booking Enquiries</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 ÉLÉGANCE HOTELS & RESORTS</span>
+      <span>CRAFTED WITH ELEGANCE</span>
+    </div>
+  </footer>
+
+</body>
+</html>
